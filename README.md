@@ -1,33 +1,47 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
 
 ### Problem Description
-Write your answer here
+Imagine a small room with a heater and a cooler. Your goal is to develop a control system to keep the room's temperature as close to a desired temperature as possible while minimizing energy consumption.
 
 ### State Space
-Write your answer here
+The state is determined by the room's current temperature.
 
 ### Sample State
-Write your answer here
+For example, the room's current temperature is 70°F.
 
 ### Action Space
-Write your answer here
+There are two actions:
+1. Turn on the heater 
+2. Turn on the cooler
 
 ### Sample Action
-Write your answer here
+You decide to turn on the heater.
 
 ### Reward Function
-Write your answer here
+* Positive reward for the temperature being close to the desired temperature.
+* Negative reward for high energy consumption.
+* Negative reward for the temperature being far from the desired temperature.
 
 ### Graphical Representation
 Write your answer here
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+Developed by Harshavardhini on 29th of Aug '23
+```
+```
+P={0: {0: [(1.0, 0, 0.0, True)],
+       1: [(1.0, 0, 0.0, True)]},
+   1: {0: [(1.0, 0, 0.0, True)],
+       1: [(1.0, 2, 1.0, True)]},
+   2: {0: [(1.0, 2, 0.0, True)],
+       1: [(1.0, 2, 0.0, True)]}}
+```
 
 ## OUTPUT:
 Write your Python output here
