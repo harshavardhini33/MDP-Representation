@@ -35,7 +35,7 @@ else
        reward=0
 ```
 ### Graphical Representation
-![image](https://github.com/harshavardhini33/MDP-Representation/assets/93427208/8bc03412-0e6e-4459-9235-7d1d9eb73bcf)
+![image](https://github.com/harshavardhini33/MDP-Representation/assets/93427208/8bc03412-0e6e-4459-9235-7d1d9eb73bcf){:height="50px" width="50px"}
 
 
 
