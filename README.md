@@ -16,17 +16,17 @@ To represent a Markov Decision Process(MDP) problem in the following ways.
 {0,1,2,3,4}
 
 ## Sample State:
-0 -> Starting point(S)
-1 -> Relaxing point(R)
-2 -> View point(G)
-3 -> Dangerous point(D)
+0) -> Starting point(S)
+1) -> Relaxing point(R)
+2) -> View point(G)
+3) -> Dangerous point(D)
 
 ## Action Space:
  {1,2}
 
 ## Sample Action:
-1 -> Moving up
-2 -> Moving down
+1) Moving up
+2) Moving down
 ## Reward Function:
 ```
 if Agent reached Goal(G) state:
@@ -70,5 +70,5 @@ Hiking
 ![image](https://github.com/gpavithra673/mdp-representation/assets/93427264/017ee6de-ec59-4296-b832-979e80f13e89)
 
 ## RESULT:
-### Hence we have created an environment suitable for the above mentioned problen.
+Hence we have created an environment suitable for the above mentioned problen.
 
