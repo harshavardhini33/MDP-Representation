@@ -35,7 +35,8 @@ else
        reward=0
 ```
 ### Graphical Representation
-![image](https://github.com/gpavithra673/mdp-representation/assets/93427264/0b923bf1-eeef-4ea1-b4b0-2aff0392bf67)
+![image](https://github.com/harshavardhini33/MDP-Representation/assets/93427208/dcfae900-61e3-422b-93e8-19fc6d1a821e)
+
 
 
 ## PYTHON REPRESENTATION:
